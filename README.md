@@ -1,7 +1,6 @@
 # SpecToUI Agent
 
 **Project name:** SpecToUI Agent (mini-project: PRD/spec → UI)
-
 **Problem:** Product and engineering teams often start from long requirement documents, but turning a PRD into a first-pass UI is slow and inconsistent. Manual wireframes or ad-hoc prompts do not always produce a structured, exportable result that matches the spec.
 
 **What we built:** A web app where an AI-assisted pipeline reads product requirements (paste or upload PDF/Word/text), produces a **Tailwind-oriented component tree**, a **live preview**, and **downloadable React code**, with optional **multi-agent** steps (analysis → build → review) and **session memory** for transparency.
@@ -12,9 +11,8 @@
 
 | Name | Contributions |
 |------|----------------|
-| **Mohammed Shabeeb P** | _[Add: e.g. API routes, orchestration, PDF parsing, testing]_ |
-| **Roushath Beevi K S** | _[Add: e.g. UI/UX, InsightBoard preview, README, docs, integration]_ |
-| **Anagha Vijay** | _[Add: e.g. prompt design, fallback logic, chart previews, QA]_ |
+| **Roushath Beevi K S** | I built SpecToUI Agent, a Next.js app that takes a PRD (text or file), runs it through an AI pipeline, and returns a live UI preview plus downloadable React code._ |
+
 
 *(Edit the contribution cells to match what each person actually did.)*
 
