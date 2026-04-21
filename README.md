@@ -35,7 +35,7 @@ Working Prototype Screenshot
 <img width="1690" height="768" alt="image" src="https://github.com/user-attachments/assets/7fb17812-7063-44c3-a2d3-e3a25ec1993a" />
 
 Demo Link
-
+https://www.loom.com/share/9e920497091c45989e9469c628122ef9
 
 ## Step-by-step: how to run locally
 
