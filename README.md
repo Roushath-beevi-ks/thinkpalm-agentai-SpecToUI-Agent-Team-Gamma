@@ -14,8 +14,6 @@
 | **Roushath Beevi K S** | I built SpecToUI Agent, a Next.js app that takes a PRD (text or file), runs it through an AI pipeline, and returns a live UI preview plus downloadable React code._ |
 
 
-*(Edit the contribution cells to match what each person actually did.)*
-
 ---
 
 ## Tech stack (with versions)
@@ -38,5 +36,4 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Roushath-beevi-ks/thinkpalm-agentai-SpecToUI-Agent-Team-Gamma.git
-   cd <repo-folder>		
+   git clone https://github.com/Roushath-beevi-ks/thinkpalm-agentai-SpecToUI-Agent-Team-Gamma.git	
