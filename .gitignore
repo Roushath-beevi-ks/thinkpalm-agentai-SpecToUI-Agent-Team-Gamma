@@ -4,3 +4,7 @@ out
 dist
 *.log
 .env.local
+
+# TypeScript incremental (regenerated on build; do not commit)
+*.tsbuildinfo
+tsconfig.tsbuildinfo

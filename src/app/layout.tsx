@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI UI Generator",
-  description: "Generate a React + Tailwind component tree from a PRD"
+  title: "SpecToUI Agent — PRD to UI",
+  description: "SpecToUI Agent: PRD/spec to live UI preview and React + Tailwind export"
 };
 
 export default function RootLayout({

@@ -1,21 +1,27 @@
 {
-  "name": "mini-project-3",
+  "name": "spec-to-ui-agent",
   "version": "1.0.0",
-  "description": "AI UI generator from PRD using Next.js and Tailwind",
+  "description": "SpecToUI Agent — PRD/spec to UI (Next.js, Tailwind, AI)",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "node src/scripts/orchestrate-cli.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "mammoth": "^1.12.0",
     "next": "^16.2.3",
+    "pdf2json": "^4.0.3",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "recharts": "^3.8.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
@@ -25,6 +31,7 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.3",
     "tailwindcss": "^4.2.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vitest": "^3.2.4"
   }
 }

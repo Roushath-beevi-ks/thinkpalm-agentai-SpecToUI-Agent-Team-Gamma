@@ -1,0 +1,6 @@
+# This project is Node.js / npm based. Install dependencies with:
+#   npm install
+#
+# Python requirements are not used for the application runtime.
+# Dependency lockfile: package-lock.json
+# Manifest: package.json

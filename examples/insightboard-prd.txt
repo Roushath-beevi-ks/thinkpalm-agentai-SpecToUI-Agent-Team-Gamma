@@ -1,0 +1,39 @@
+Product Name: InsightBoard (Analytics Dashboard SaaS)
+
+Overview: InsightBoard is a modern analytics dashboard platform that allows users to visualize business data using charts, metrics, and reports. The system should provide a highly interactive and visually appealing UI.
+
+Target Users:
+- Business analysts
+- Product managers
+- Admin users
+
+Core Features:
+1. Dashboard Overview – KPI Cards (Revenue, Users, Growth); line chart for trends (weekly/monthly); bar chart for category comparison; pie chart for distribution
+2. Navigation – Sidebar with sections: Dashboard, Reports, Settings; top navbar with search, notifications, profile
+3. Reports Page – Table view with filters; export options (CSV, PDF)
+4. Filters & Controls – Date range picker; dropdown filters; real-time updates
+5. User Interactions – Hover tooltips on charts; click to drill down into data; smooth transitions
+
+UI/UX Requirements:
+- Modern SaaS UI
+- Card-based layout
+- Soft shadows and rounded corners
+- Gradient headers
+- Responsive design
+
+States:
+- Loading (skeleton loaders)
+- Empty state (no data message)
+- Error state (retry option)
+
+Accessibility:
+- Proper labels and roles
+- Keyboard navigation support
+
+Performance:
+- Lazy loading charts
+- Optimized rendering
+
+Future Scope:
+- Dark mode
+- Multi-user collaboration

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { generateFromPRD } from "@/lib/ai";
+import { applyPreviewAlignedExport } from "@/lib/preview-aligned-export";
 
 export async function POST(request: Request) {
   try {
@@ -13,7 +14,10 @@ export async function POST(request: Request) {
       );
     }
 
-    const result = await generateFromPRD(requirements);
+    const result = applyPreviewAlignedExport(
+      requirements,
+      await generateFromPRD(requirements)
+    );
     return NextResponse.json(result);
   } catch (error) {
     return NextResponse.json(
